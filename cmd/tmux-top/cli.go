@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/TomasTomecek/tmux-top/conf"
-	display "github.com/TomasTomecek/tmux-top/display"
-	"github.com/TomasTomecek/tmux-top/io"
-	"github.com/TomasTomecek/tmux-top/load"
-	"github.com/TomasTomecek/tmux-top/mem"
-	"github.com/TomasTomecek/tmux-top/net"
+	"github.com/allanhung/tmux-top/conf"
+	display "github.com/allanhung/tmux-top/display"
+	"github.com/allanhung/tmux-top/io"
+	"github.com/allanhung/tmux-top/load"
+	"github.com/allanhung/tmux-top/mem"
+	"github.com/allanhung/tmux-top/net"
 	"github.com/codegangsta/cli"
 	"os"
 )

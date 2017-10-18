@@ -6,7 +6,7 @@ package io
 
 import (
 	//"fmt"
-	"github.com/TomasTomecek/tmux-top/conf"
+	"github.com/allanhung/tmux-top/conf"
 	"io/ioutil"
 	"os"
 	"path"

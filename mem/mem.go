@@ -2,7 +2,7 @@ package mem
 
 import (
 	"fmt"
-	"github.com/TomasTomecek/tmux-top/humanize"
+	"github.com/allanhung/tmux-top/humanize"
 	"io/ioutil"
 	"strconv"
 	"strings"

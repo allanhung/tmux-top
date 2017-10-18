@@ -4,8 +4,8 @@ package display
 
 import (
 	"fmt"
-	"github.com/TomasTomecek/tmux-top/conf"
-	huma "github.com/TomasTomecek/tmux-top/humanize"
+	"github.com/allanhung/tmux-top/conf"
+	huma "github.com/allanhung/tmux-top/humanize"
 	"math"
 	"strconv"
 )

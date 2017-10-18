@@ -3,7 +3,7 @@ package conf
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/TomasTomecek/tmux-top/humanize"
+	"github.com/allanhung/tmux-top/humanize"
 	"io/ioutil"
 	"math"
 	"os"

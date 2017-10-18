@@ -2,7 +2,7 @@ package net
 
 import (
 	"fmt"
-	"github.com/TomasTomecek/tmux-top/conf"
+	"github.com/allanhung/tmux-top/conf"
 	"io/ioutil"
 	"net"
 	"sort"
