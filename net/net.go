@@ -81,8 +81,8 @@ func read_all_net_stats(c *conf.ConfigurationManager) map[string]NetStat {
 		intf_stats_path_tx := fmt.Sprintf("/sys/class/net/%s/statistics/tx_bytes", intf.Name)
 		rx_float, tx_float := read_net_stats(intf_stats_path_rx, intf_stats_path_tx)
 
-		for _, address := range addrs {
-			address_s := address.String()
+		for i := len(addrs)-1; i >= 0; i-- {
+			address_s := addrs[i].String()
 			if !strings.Contains(address_s, ":") { // TODO: add support for IPv6
 				s := NetStat{
 					Name:    intf.Name,

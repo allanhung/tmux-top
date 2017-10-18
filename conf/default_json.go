@@ -66,7 +66,7 @@ var default_conf string = `
 	},
 	"net": {
 		"interfaces": {
-			"enp5s0": {
+			"eth0": {
 				"alias": "E",
 				"label_color_fg": "white",
 				"label_color_bg": "default",
@@ -95,7 +95,6 @@ var default_conf string = `
 		"download_label_bg": "default",
 		"download_label_fg": "white",
 		"intervals": [{
-			"from": "25KB",
 			"to": "256KB",
 			"bg_color": "default",
 			"fg_color": "green"
@@ -140,7 +139,6 @@ var default_conf string = `
 		"write_label_bg": "default",
 		"write_label_fg": "white",
 		"intervals": [{
-			"from": "1MB",
 			"to": "4MB",
 			"bg_color": "default",
 			"fg_color": "green"
